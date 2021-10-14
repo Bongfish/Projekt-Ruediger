@@ -15,6 +15,13 @@ namespace Projekt_Ruediger
         public Form1()
         {
             InitializeComponent();
+
+            Settings.SettingsFile.ReadFile();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
